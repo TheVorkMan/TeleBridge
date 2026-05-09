@@ -1,0 +1,9 @@
+allowBuilds:
+  "@telebridge/entity": true
+  bufferutil: true
+  deno: true
+  es5-ext: true
+  utf-8-validate: true
+
+onlyBuiltDependencies:
+  - "@telebridge/entity"
