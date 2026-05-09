@@ -1,9 +1,9 @@
 {
   "compilerOptions": {
     "target": "ESNext",
-    "module": "node16",
+    "module": "ESNext",
     "rootDir": "./src",
-    "moduleResolution": "node16",
+    "moduleResolution": "NodeNext",
     "outDir": "./dist",
     "removeComments": true,
     "esModuleInterop": true,
