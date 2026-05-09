@@ -4,15 +4,13 @@
     "module": "ESNext",
     "rootDir": "./src",
     "moduleResolution": "node",
+    "ignoreDeprecations": "6.0"б
     "outDir": "./dist",
     "removeComments": true,
     "esModuleInterop": true,
     "forceConsistentCasingInFileNames": true,
     "strict": true,
     "alwaysStrict": true,
-    "skipLibCheck": true,
-    "compilerOptions": {
-      "ignoreDeprecations": "6.0"
-    }
+    "skipLibCheck": true
   }
 }
