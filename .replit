@@ -22,14 +22,19 @@ args = "Start application"
 name = "Start application"
 author = "agent"
 
+[workflows.workflow.metadata]
+outputType = "webview"
+
 [[workflows.workflow.tasks]]
 task = "shell.exec"
-args = "npm run telebridge"
-
-[workflows.workflow.metadata]
-outputType = "console"
+args = "npm run dev"
+waitForPort = 5000
 
 [deployment]
 deploymentTarget = "vm"
 run = ["node", "dist/index.js"]
 build = ["npm", "run", "build"]
+
+[[ports]]
+localPort = 5000
+externalPort = 80
