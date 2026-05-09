@@ -4,7 +4,7 @@
     "module": "ESNext",
     "rootDir": "./src",
     "moduleResolution": "node",
-    "ignoreDeprecations": "6.0"б
+    "ignoreDeprecations": "6.0",
     "outDir": "./dist",
     "removeComments": true,
     "esModuleInterop": true,
